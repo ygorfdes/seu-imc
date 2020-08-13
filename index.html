@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>IMC - Índice de Massa Corporal<h2/>
+    </header>
+    <main>
+        <section>
+            <p>
+                <i>O que é isso? É o resultado de um cálculo que identifica se o seu peso é o ideal, de acordo com sua altura. Para calcular, insira seus dados abaixo e clique no botão!</i>
+            </p>
+        </section>
+        <form class="form">
+            <fieldset>
+                <p>
+                    <label>Peso:</label>
+                    <input type="text" name="kg" placeholder="kg"/>
+                </p>
+                <p>
+                    <label>Altura:</label>
+                    <input type="text" name="m" placeholder="m"/>
+                    <input type="text" name="cm" placeholder="cm"/>
+                </p>
+                <button class="calc">Calcular</button>
+            </fieldset>
+        </form>
+        <br/>
+        <table>
+            <tr><th>Referências</th></tr>
+            <tr><td>IMC < 18,5 é definido como <strong>Magreza</strong>.</td></tr>
+            <tr><td>IMC entre 18,5 e 24,9 é definido como <strong>Ideal</strong>.</td></tr>
+            <tr><td>IMC entre 25 e 29,9 é definido como <strong>Sobrepeso</strong>.</td></tr>
+            <tr><td>IMC entre 30 e 39,9 é definido como <strong>Obesidade</strong>.</td></tr>
+            <tr><td>IMC > 40 é considerado como <strong>Obesidade Mórbida</strong>.</td></tr>
+        </table>
+    </main>
+    <footer>
+        <p>MIT &copy; Ygor Oliveira Fernandes</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
