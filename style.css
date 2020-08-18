@@ -1,20 +1,26 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    /*TUDO DEFINIDO NELE SOBREPÔE TODOS OS OUTROS*/
+html, body {
+    background: linear-gradient(rgb(173, 255, 47), rgb(57, 207, 207));
+    text-align: center;
+    height: 100%;
 }
 
-body {
-    background-color: rgb(173, 255, 47);
-    text-align: center;
+header, footer, form {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 main {
     text-align: left;
     margin: auto;
-    width: 50%;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 20px;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
 }
