@@ -1,8 +1,6 @@
 html, body {
-    background: linear-gradient(rgb(173, 255, 47), rgb(57, 207, 207));
-    background-repeat: no-repeat;
+    background: rgb(173, 255, 47);
     text-align: center;
-    height: 100%;
 }
 
 header, footer, form {
